@@ -1,0 +1,107 @@
+	
+	/* LIST ITEMS */
+
+	.tattoo { 
+	display: flex; /* assemble all in ONE row, also cause the dot to disappear */
+	justify-content: space-between; /* spaces out the content and sections in the list */ 
+	align-items: center; /* centers everything in the row */ 
+	padding: 10px; /* moves the alignment just slightly */ 
+	transition: all 0.3s ease; /* no changes to me */ /* all = all properties , 0.3 = duration for this trans effect , ease = type of trans effect */
+	border-radius: 3px; /* NO CHANGES TO ME */ 
+	background: rgb(240, 240, 240); /* gives the card component effect by filling colors in the section */
+ 	}
+
+  	.tattoo:hover { 
+ 	background: black;  /* #a9a9a9; gives the card component effect by filling colors in the section */ 
+  	}
+
+  	/* ANGLE UP ICON */ 
+
+	.fa-angle-up { 
+	font-size: 30px;
+	/* OPTIONAL - padding: 20px; OPTIONAL */
+	/* OPTIONAL - transition: all 0.3s ease; OPTIONAL */
+	cursor: pointer;
+ 	}
+
+	.fa-angle-up:hover {
+	color: red;
+	}
+	.tattoo:hover .fa-angle-up { /* changes elements inside tattoo */
+	font-size: 40px;
+	
+ 	}
+
+
+ 	/* NUMBER OF LIKES SPAN CLASS */ 
+
+
+  	.number-of-likes { 
+  	font-size: 14px;
+	/* OPTIONAL - padding: 20px; OPTIONAL */
+    transition: all 0.3s ease; 
+   	}
+
+   .tattoo:hover .number-of-likes { /* changes elements inside tattoo */
+	font-size: 40px;
+	color: limegreen;
+	font-weight: bolder;
+ 	}
+
+
+ 	/* ANGLE DOWN ICON */ 
+
+
+ 	.fa-angle-down { 
+ 	font-size: 30px;
+ 	/* OPTIONAL - padding: 20px; */
+    transition: all 0.3s ease;
+    cursor: pointer; 
+  	}
+ 	.fa-angle-down:hover{
+	color: red;
+
+	}
+ 	.tattoo:hover .fa-angle-down { /* changes elements inside tattoo */
+	font-size: 40px;
+	
+	 }
+
+
+	 /* DESCRIPTION CLASS */ 
+
+
+	.list-description { 
+	flex: 1 0 auto; /* moves img & description to the far left */
+	padding: 20px; /* spaces out btw img & description */
+ 	}
+
+ 	.tattoo:hover .list-description { /* changes elements inside tattoo */
+	color: limegreen;
+ 	}
+
+
+ 	/* FEATURES ICON */ 
+
+
+ 	.list-features { /* anchor tag here is responsible for changing the color when hovered over  */
+ 	font-size: 15px;
+ 	opacity: 0.8;
+ 	display: flex; /* sets my icons horizontally */ 
+ 	display: inline;
+ 	display:inline-flex; /* sets icons horizontally also but no spacing */ 
+
+	}
+
+	.tattoo:hover .list-features { /* changes elements inside tattoo */
+	color: limegreen;
+ 	}
+
+	.tattoo-image { 
+	border-radius: 15px;
+	background-size: 100%;
+ 	}
+
+
+
+

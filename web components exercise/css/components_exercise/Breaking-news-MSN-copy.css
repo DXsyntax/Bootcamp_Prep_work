@@ -1,0 +1,124 @@
+/* breaking news */ 
+
+/* trending */
+
+.myHeader { /* css not responding */ 
+	font-weight: 900;
+	font-size: 40px;
+ }
+
+/*split card 1 */
+
+.card-news-1 { /* not responding in breaking news feed css */ 
+	position: relative;
+	height: 400px;
+	width: 554.5px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvSPh7jw7C0IX4hRawz1Cp_EWeOVBNCm-kCRGapewV_dTdL32MTg&s");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px; 	
+	display: flex;
+	align-items: flex-end;
+	border-style: solid;
+	border-color: red;
+
+}
+/*split card 2 */ 
+.card-news-2 { /* not responding in breaking news feed css */ 
+	position: relative;
+	height: 400px;
+	width: 554.5px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://i.ytimg.com/an_webp/1FnFdlc0nC0/mqdefault_6s.webp?du=3000&sqp=COSa6_AF&rs=AOn4CLBv-job8onobhiy7eFOR2ZaiPCLvw");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px; 	
+	display: flex;
+	align-items: flex-end;
+	border-style: solid;
+	border-color: red;
+
+}
+/* 40 mins ago */
+.news-time-ago { /* this is extra on how to align another line of text to the bottom */
+
+/* unable to utilize flexbox for this, not sure why */ 
+
+	/* font-size: 200px; */ /* creates space between the lines of text */ 
+	position: absolute; /* scrub this off if you want it inline with article name, relative puts it at the top right alignment */ 
+	bottom: 50px;
+	left: 10px;
+	
+
+ }
+/*40 mins ago */
+ .time-ago { 
+
+ 	font-size: 20px;
+ 	opacity: 0.5;
+ 	font-weight: bolder;
+  }
+
+body { 
+	/* background-color: black; */
+ }
+
+/* div of the card */ 
+
+ .news-feed-1to5 { 
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+
+ }
+
+ .news-feed-6to10 { 
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+
+ }
+
+ /*hover effect on cards 1to10 */ 
+
+  .card:hover { 
+	
+	background: black;
+ }
+
+/* contrasting colors hover effect */ 
+
+ .news-description:hover .news-title { /* if i want to change news title i can't select directly from the card. i must check which div news-title is under and that is my answer */
+ 	color: yellow;
+  }
+
+ /* article title */ 
+
+.news-title { 
+	font-size: 16px;
+
+ }
+
+/* news icons */ 
+
+ .news-source { 
+ 	font-weight: 900;
+ 	color: maroon;
+ 	font-size: 14px;
+  }
+
+/* hover contrasting effect */ 
+
+  .news-description:hover .news-source { /* if i want to change news title i can't select directly from the card. i must check which div news-title is under and that is my answer */
+ 	color: white;
+  }
+
+
+/* fb like button */ 
+
+ .likes { 
+	float: right; 
+	font-size: 21px; 
+	color: lightgrey; 
+	cursor: pointer;
+	}
+
+.likes:hover { /* no spacings allowed between hover */
+	color: red;
+
+}

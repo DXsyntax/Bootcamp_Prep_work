@@ -1,0 +1,79 @@
+/* Fonts from google */
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree|Calistoga|Girassol|Mansalva|Mogra|Odibee+Sans|Saira+Stencil+One|Shrikhand|Yatra+One&display=swap');
+/* designing of web components */ 
+@import url("components_exercise/facebook_like_button.css");
+@import url("components_exercise/Avatar_Of_Dexter.css");
+@import url("components_exercise/dropdownlist.css");
+@import url("components_exercise/BadgeOfDexter.css");
+@import url("components_exercise/button_technologies.css");
+@import url("components_exercise/cards-components.css");
+@import url("components_exercise/epicurious-card.css");
+@import url("components_exercise/tabsMenu.css");
+@import url("components_exercise/List_Repo.css");
+@import url("components_exercise/Breaking-news-MSN-copy.css");
+@import url("components_exercise/Banner-of-dexters-arsenal.css");
+
+
+
+
+/* epicurious card code reference */
+
+.epicard {
+  height: 400px;
+  background-color: #f7f7f7;
+  display: flex; /* try out what is this for */
+  flex-direction: column; /* try out what is this for */
+  margin-bottom: 15px; 
+}
+
+.epicard-image {
+  height: 240px;
+  background-size: cover;
+  position: relative;
+}
+
+
+.epicard-info {
+  padding: 15px 0px 0px 10px;
+}
+
+.epicard-category {
+  color: red;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+.epicard-info h3 { /* try out what is this for */
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.epicard-info p {
+  font-size: 12px;
+  font-style: lighter !important;
+  color: #5e5d5d;
+}
+
+.image-overlay { 
+
+position: absolute;
+align-items: center;
+
+ }
+
+ .fa-youtube
+ { 
+ 	font-size: 30px;
+ 	color: black;
+ 	float: right;
+ 	display: inline;
+ 	
+  }
+
+.fa-youtube:hover { 
+	color: white;
+ }
+
+

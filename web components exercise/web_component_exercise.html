@@ -1,0 +1,1018 @@
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+<!-- required meta tags for bootstrap --> 
+<meta charset="utf-8">
+<meta name="viewport" content="250=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title> designing web components exercise</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> <!-- this is the css link to bootstrap --> 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"> <!-- link to bootstrap fontawesome -->
+
+<script src="https://kit.fontawesome.com/91dd143ef0.js" crossorigin="anonymous"></script> <!-- link from domferris -->
+
+<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"> <!-- link from domferris --> 
+
+<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"> <!-- link from domferris --> 
+
+<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all"> <!-- link from domferris --> 
+
+
+
+<link rel="stylesheet" href="css/styles.css"> <!-- this is linked to my overall css -->
+
+
+
+</head>
+
+
+
+
+<body>
+
+<!-- Banner component --> 
+
+<!--<h5> Banner component </h5> -->
+
+
+<div class="Banner-D"> 
+
+	<div class="content">
+	<h2 class="Arsenal"> Dexter's Arsenal </h2>
+
+	<p class="creators-message"> welcome to my arsenal of web components available to deploy at your service </p>
+
+<button type="button" class="btn btn-outline-success initiate">Initiate</button>
+	
+
+
+</div>
+ </div>
+	
+
+	<div class="container">
+	<!-- facebook like button --> 
+	<h1>Facebook like button</h1>
+	<a class="btn btn-facebook-like" href="https://www.facebook.com"><i class="far fa-thumbs-up" aria-hidden="true"></i> Like</a>
+	<!-- check out where is far fa-thumbs-up taken from and what is aria-hidden, what is <i> </i> and how did he insert text into the thumbs up button -->
+
+	<!-- avatar component --> 
+	<h2> Dexter's Avatar</h2>
+	 
+	<img src="https://via.placeholder.com/150" alt="avatar of dexter" class="avatar">
+
+    <!-- dropdown list --> 
+	<h2 class="drop-list">Dropdown list</h2>
+
+	<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  dropdown list <!-- how is it i am able to simply rename my list from here --> 
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action1</a>
+    <a class="dropdown-item" href="#">Action2</a>
+    <a class="dropdown-item" href="#">Action3</a>
+  </div>
+</div>           
+
+<!-- badge component --> 
+<h3> Badge of Dexter</h3>
+<img src="https://via.placeholder.com/150/FFFF00/?text=The Dexter Badge" alt="" class="Badge-Dexter">
+<span class="badge">13</span> <!-- span means it can be inline with other elements --> 
+
+ <!-- the badge is created with css instead and not the html -->
+
+ <!-- button components --> 
+ <h4>Button Technologies</h4>
+<a href="#" button type="button" class="btn btn-dark">Dark-Mode HAHAHAHAH</button></a>
+
+<button type="button" class="btn btn-outline-success">Success!!</button>
+
+<a href="something" class="button2">im coding</a>
+<a href="something" class="button2">im finally coding!!!!</a>
+
+<!-- cards components --> 
+<h5>Card components </h5>
+
+<div class="row"> <!-- whats this for again -->
+
+<div class="col-xs-12 col-sm-4">
+<div class="card1">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-4">
+<div class="card2">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+
+
+		</div>
+	</div>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<div class="card3">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+			</div>
+		</div>
+	</div>
+
+<div class="col-xs-12 col-sm-4">
+<div class="card4">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="col-xs-12 col-sm-4">
+<div class="card5">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+		</div>
+	</div>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<div class="card6">
+<span class="card-category">BREAKING NEWS</span>
+<div class="card-description">
+<span style="background-color: #ffa500">the click bait you can't ignore.</span>
+<p>we deliver cutting edge news</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- epicurious card --> 
+<h5>Epicurious card component</h5>
+
+<div class="card Ecard" style="width: 21rem;">
+
+	<span class="notify-badge">
+
+		<a class="btn btn-fb-like-E" href="https://www.facebook.com">117 <i class="far fa-thumbs-up" aria-hidden="true"></i> Like</a>
+
+	</span>
+
+  <img src="https://assets.epicurious.com/photos/5aa012445d9a6873cf20d4ae/1:1/w_1600%2Cc_limit/salted-caramel-chocolate-tart-recipe-BA-030718.jpg" class="card-img-top" alt="...">
+
+
+
+  <div class="card-body">
+    <h5 class="card-title">GALLERY</h5>
+
+	<p class="card-text"> 
+    <a href="https://www.epicurious.com/ingredients/decadent-dark-chocolate-recipes-cake-ice-cream-cookies-tart-desserts-gallery" target="_blank">83 Decadent Dark Chocolate Desserts</a>
+    </p>
+
+    <p class="card-text" id="cheesy-quote"> The night is dark, and full of chocolate. <span class="youtube-icon"> <a href="https://www.youtube.com/"> <i class="fab fa-youtube"> </i> </a>  </span> <!-- css position is absolute --> 
+ </p>
+
+
+
+    
+    
+  		</div>
+	</div>
+
+<!-- tabs component --> 
+
+<h6>TABS COMPONENT </h6>
+
+<p class="kit">Tool Kit mark II </p>
+
+<div class="tabs"> 
+
+<div class="tabs-tool active"> 
+<h6 class="tabs-header">root Kit   </h6>
+
+<span class="icon"><i class="fas fa-screwdriver"></i></span>
+
+<p class="path-of-text">Execute</p>
+</div>
+
+<div class="tabs-tool" style="border-radius: 10px 10px 15px 15px;"> 
+<h6 class="tabs-header"> Crawler</h6>
+
+<span class="icon"><i class="fas fa-spider"></i></span>
+
+<p class="path-of-text">Execute</p>
+</div>
+
+<div class="tabs-tool" style="border-radius: 10px 10px 15px 15px;"> 
+<h6 class="tabs-header"> Malicious Inject </h6>
+
+<span class="icon"><i class="fas fa-syringe"></i></span>
+
+<p class="path-of-text">Execute</p>
+</div>
+
+<div class="tabs-tool"> 
+<h6 class="tabs-header">Crash apparatus</h6>
+
+<span class="icon"> <i class="fas fa-car-crash"></i></span> 
+
+<p class="path-of-text">Execute</p>
+	</div>
+</div>
+
+
+<!-- List Repository --> 
+
+<h6>List-Repo component</h6>
+
+<!-- 1st item --> 
+
+<ul class="product-list"> <!-- makes the list items stick together instead of being spaced out seperately --> 	
+
+	<li class="tattoo"> 
+
+		<div class="tattoo-upvote ">
+
+				<i class="fas fa-angle-up text-center"></i>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<span class="number-of-likes">579</span>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<i class="fas fa-angle-down"></i>
+		</div> <!--divs in place to put them vertically-->
+			</div> <!--divs in place to put them vertically-->
+				</div>
+					
+					<img src="tattoo-images/moth.jpeg" alt="moth" width="250" height="125" class="tattoo-image img-rounded">
+
+
+					<div class="list-description"> 
+
+						<h6> name of the tattoo </h6>
+
+							<p> meaning of the tattoo </p>
+
+						</div>
+
+						<!-- features in my list --> 
+
+
+
+	<ul class="list-inline list-features"> <!-- when site is going live. remove the space, not the aesthetics you want  --> 
+
+
+		<li><a href=""><i class="fas fa-comments"></i>&#160;&#160;</a></li>
+
+		<li><a href=""><i class="fa fa-share"></i>&#160;&#160;</a></li>
+
+		<li><a href=""><i class="fas fa-info-circle"></i></a></li>
+						</ul>
+							</li>
+								
+
+
+<!-- 2nd item -->
+
+
+
+	<li class="tattoo"> 
+
+		<div class="tattoo-upvote ">
+
+				<i class="fas fa-angle-up text-center"></i>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<span class="number-of-likes">579</span>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<i class="fas fa-angle-down"></i>
+		</div> <!--divs in place to put them vertically-->
+			</div> <!--divs in place to put them vertically-->
+				</div>
+					
+					<img src="tattoo-images/devil-hand.jpeg" alt="moth" width="250" height="125" class="tattoo-image img-rounded">
+
+
+					<div class="list-description"> 
+
+						<h6> name of the tattoo </h6>
+
+							<p> meaning of the tattoo </p>
+
+						</div>
+
+						<!-- features in my list --> 
+
+
+
+	<ul class="list-inline list-features">
+
+
+		<li><a href=""><i class="fas fa-comments"></i>&#160;&#160;</a></li>
+
+		<li><a href=""><i class="fa fa-share"></i>&#160;&#160;</a></li>
+
+		<li><a href=""><i class="fas fa-info-circle"></i></a></li>
+						</ul>
+							</li>
+								
+
+
+<!-- 3rd item -->   
+
+
+
+	<li class="tattoo"> 
+
+		<div class="tattoo-upvote ">
+
+				<i class="fas fa-angle-up text-center"></i>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<span class="number-of-likes">579</span>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<i class="fas fa-angle-down"></i>
+		</div> <!--divs in place to put them vertically-->
+			</div> <!--divs in place to put them vertically-->
+				</div>
+					
+					<img src="tattoo-images/octopus.jpeg" alt="moth" width="250" height="125" class="tattoo-image img-rounded">
+
+
+					<div class="list-description"> 
+
+						<h6> name of the tattoo </h6>
+
+							<p> meaning of the tattoo </p>
+
+						</div>
+
+						<!-- features in my list --> 
+
+					<ul class="list-inline list-features">
+
+
+					<li><a href=""><i class="fas fa-comments"></i>&#160;&#160;</a></li>
+
+					<li><a href=""><i class="fa fa-share"></i>&#160;&#160;</a></li>
+
+					<li><a href=""><i class="fas fa-info-circle"></i></a></li>
+						</ul>
+							</li>
+								</ul>
+
+<!-- 4th item TEST -->   
+
+<ul class="product-list">
+
+	<li class="tattoo"> 
+
+		<div class="tattoo-upvote ">
+
+				<i class="fas fa-angle-up text-center"></i>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<span class="number-of-likes">579</span>
+
+				<div>  <!--divs in place to put them vertically-->
+
+				<i class="fas fa-angle-down"></i>
+		</div> <!--divs in place to put them vertically-->
+			</div> <!--divs in place to put them vertically-->
+				</div>
+					
+					<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+
+					<div class="list-description"> 
+
+						<h6> name of the tattoo </h6>
+
+							<p> meaning of the tattoo </p>
+
+						</div>
+
+						<!-- features in my list --> 
+
+					<ul class="list-inline list-features">
+
+
+					<li><a href=""><i class="fas fa-comments"></i>&#160;&#160;</a></li>
+
+					<li><a href=""><i class="fa fa-share"></i>&#160;&#160;</a></li>
+
+					<li><a href=""><i class="fas fa-info-circle"></i></a></li>
+						</ul>
+							</li>
+								</ul>
+
+
+
+<!-- Breaking newsfeed component --> 
+
+<h5 style="color: navy;"> MSN breaking newsfeed knockoff </h5>
+
+<!--- split card -->
+<div class="card-group">  
+
+  <div class="card-news-1">
+
+  <!-- inline css not working --> 
+   
+
+    <h6 class="myHeader"> TRENDING </h6>
+
+    <div class="news-time-ago">
+
+    <span class="time-ago"><u> 40 minutes ago</u> </span>
+
+  </div>
+</div>
+
+
+
+
+  <div class="card-news-2">
+    
+  	<h6 class="myHeader"> TRENDING </h6>
+
+    <div class="news-time-ago">
+
+    <span class="time-ago"><u> 40 minutes ago</u> </span>
+
+    
+  
+
+	</div>
+</div> <!-- this div is responsible for un-rowing 2nd attempt --> 
+
+
+	<div class="container">
+
+	<!-- first 5 newsfeed -->
+	<div class="row news-feed-1to5">  
+
+	<div class="card feed-1"> 
+
+
+		<a href="https://www.msn.com/en-sg/news/world/americans-first-trump-backs-britains-great-queen-says-megxit-drama-sad/ar-BBYQwcE?li=BBr8YXK" target="_blank">
+
+		 <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYQsbQ.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&f=jpg&x=718&y=281" class="news-image"> </a>
+
+		<div class="news-description"> 
+
+			<h6 class="news-title">Trump backs Queen </h6>
+
+
+			<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+		<a href="" target="_blank">	
+
+			<p class="news-source"> NewsHub <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBBhnYp.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt="">  </p> 
+
+		</a>
+
+
+
+		</div>
+	</div>
+
+
+	<div class="card feed-2"> 
+
+
+		<a href="https://www.msn.com/en-sg/news/world/man-dies-four-years-after-co-worker-poisons-his-sandwich/ar-BBYOce4?li=BBr8YXK" target="_blank">
+
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYMCws.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&f=jpg" class="news-image"> </a>
+
+		<div class="news-description"> 
+
+			<h6 class="news-title">died by poisoned sandwich </h6>
+
+	<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="https://news.sky.com/" target="_blank">
+
+			<p class="news-source"> Sky News <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AAyx2WP.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt="pic"> </p> 
+
+</a>
+		</div>
+	</div>
+
+
+	<div class="card feed-3"> 
+
+		<a href="https://www.msn.com/en-sg/news/singapore/netizens-complain-after-train-fills-with-white-smoke-call-out-minister-for-promising-reliability/ar-BBYP8cQ?li=AAAHpny" target="_blank">
+
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYQbmh.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&x=120&y=89" class="news-image">
+
+		</a>
+
+		<div class="news-description"> 
+
+			<h6 class="news-title"> Train filled with smoke</h6>
+
+		<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="http://theindependent.sg/" target="_blank">
+
+			<p class="news-source"> The Independent <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBUTIAJ.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""> </p> 
+
+</a>
+			</div>
+		</div>
+
+
+	<div class="card feed-4"> 
+
+	<a href="https://www.msn.com/en-sg/entertainment/asianbuzz/australian-k-pop-stars-express-concern-for-country-amid-fires/ar-BBYOAkQ?li=AAAHuH2" target="_blank">
+
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYOlGM.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&x=773&y=180" class="news-image">
+
+	</a>
+
+		<div class="news-description"> 
+
+			<h6 class="news-title">Kpop stars expresses concern</h6>
+
+
+		<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+
+<a href="https://www.billboard.com/" target="_blank">
+
+			<p class="news-source"> Billboard <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AA2YAWO.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""> </p> 
+
+</a>
+			</div>
+		</div>
+
+
+
+	<div class="card feed-5"> 
+	<a href="https://www.msn.com/en-sg/entertainment/asianbuzz/hbo-to-produce-parasite-miniseries/ar-BBYOtOW?li=AAAHuH2" target="_blank">
+
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYNIGU.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&x=398&y=126" class="news-image">
+	</a>
+		<div class="news-description"> 
+
+			<h6 class="news-title">HBO 'parasite' miniseries</h6>
+
+		<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="https://www.afp.com/en/news-hub" target="_blank">
+
+			<p class="news-source"> AFP <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AAyXiwM.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""> </p> 
+
+</a>
+			</div>
+		</div>
+</div>
+
+	<!-- 2nd two newsfeed -->
+	<div class="row news-feed-6to10">  
+
+	<div class="card feed-6"> 
+
+	<a href="https://www.businessinsider.sg/singapore-women-are-earning-6-lesser-than-men-and-its-mostly-because-they-have-different-jobs-mom/" target="_blank">
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYOR0B.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&f=jpg&x=504&y=138" class="news-image">
+	</a>
+		<div class="news-description"> 
+
+			<h6 class="news-title">sg women earning lesser</h6>
+<a href="https://www.businessinsider.sg/" target="_blank">
+
+<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+			<p class="news-source"> Business Insider SG <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBWebE2.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""></p> 
+
+</a>
+		</div>
+	</div>
+
+
+
+	<div class="card feed-7"> 
+
+	<a href="https://www.msn.com/en-sg/news/world/hk-unrest-beginning-to-affect-mental-health-of-more-than-2-million-people-study/ar-BBYQt7k?li=BBr8YXK" target="_blank">
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AAH1Lkr.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&f=jpg" class="news-image">
+	</a>
+		<div class="news-description"> 
+
+			<h6 class="news-title">HK unrest continues</h6>
+
+	<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="http://theindependent.sg/" target="_blank">
+
+
+			<p class="news-source"> The Independent <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBUTIAJ.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""> </p> 
+
+</a>
+			</div>
+		</div>
+
+	<div class="card feed-8"> 
+
+	<a href="https://www.scmp.com/week-asia/health-environment/article/3045571/impossible-pork-muslim-southeast-asia-impossible-sell" target="_blank">
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYPzsZ.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&f=jpg" class="news-image">
+	</a>
+		<div class="news-description"> 
+
+			<h6 class="news-title">Impossible pork</h6>
+
+			<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+
+<a href="https://www.scmp.com/" target="_blank">
+
+
+			<p class="news-source">S. China Morning Post <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AAwguTC.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""></p>
+
+</a>
+			</div>
+		</div>
+
+
+	<div class="card feed-9"> 
+
+	<a href="https://www.therakyatpost.com/2020/01/10/chinese-new-year-a-cultural-tradition-not-a-religious-one/" target="_blank">
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYP1mh.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&x=337&y=287" class="news-image">
+	</a>
+		<div class="news-description"> 
+
+		<h6 class="news-title">CNY: a cultural tradition</h6>
+
+<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="https://www.therakyatpost.com/" target="_blank">
+
+			<p class="news-source"> The Rakyat Post <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/AAFS4z9.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""> </p> 
+
+</a>
+			</div>
+		</div>
+
+
+	<div class="card feed-10"> 
+
+	<a href="https://www.businessinsider.sg/man-proposed-by-editing-himself-into-sleeping-beauty-video-2020-1/" target="_blank">
+		<img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBYQ2kD.img?h=120&w=220&m=6&q=60&u=t&o=t&l=f&x=365&y=464" class="news-image">
+
+		<div class="news-description"> 
+	</a>
+			<h6 class="news-title">Man's epic proposal</h6>
+
+<i class="far fa-thumbs-up likes" aria-hidden="true"> 3</i>
+
+<a href="https://www.businessinsider.sg/" "target="_blank">
+
+
+
+			<p class="news-source">  Business Insiders SG <img src="https://static-global-s-msn-com.akamaized.net/img-resizer/tenant/amp/entityid/BBWebE2.img?h=22&w=22&m=6&q=60&u=t&o=t&l=f&f=png" alt=""></p> 
+</a>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+
+
+
+
+
+<!-- extra exercise**
+
+<h5> ref from dom </h5> -- extra. try to make 5x5 for this because this has no card shape -- 
+
+<div class="row"> -- why is this working now -
+
+<div class="breaking-news"> -- first 2 items 
+
+	<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+		</div>
+	</d	iv>	
+
+- second item -
+
+<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+
+			</div>
+		</div>
+
+
+<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+		</div>
+	</div>	
+
+- second item -
+
+<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<div class="row news-feed-2ndAttempt-3n4">
+<div class="breaking-news"> -3rd n 4th items 
+
+
+	- third item - 
+
+	<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+	</div>
+		</div>
+
+- fourth item  
+
+<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+
+			</div>
+		</div>
+
+- third item  
+
+	<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+	</div>
+		</div>
+
+- fourth item  
+
+<div class="news-items"> 
+
+		<img src="http://unsplash.it/200/120/?random" class="tattoo-image img-rounded">
+
+		<div class="news-item-infos">
+
+			<h7 class="news">
+
+			<a href="https://www.bbc.com/news"
+			target="_blank">This is breaking news</a>
+
+			</h7> 
+
+			<p class="news-time">48 minutes ago </p>
+
+			<p> "Wow! how surprising" </p>
+
+			</div>
+		</div>
+
+
+	</div>
+</div>	
+</div>
+
+-->
+
+<p>===============================================these are just filler lines =====================================================</p>
+<p>===============================================these are just filler lines =====================================================</p>
+<p>===============================================these are just filler lines =====================================================</p>
+<p>===============================================these are just filler lines =====================================================</p>
+
+    <!-- JS and jquery dependency link from bootstrap --> 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<!-- WHERE DO I GET ALL THESE LATEST VER LINKS OF JS, JQUERY & POPPER.JS -->
+	<!-- COMPARE IT WITH BORIS'S VER AND SEE THE DIFF --> 
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- reference code EXTRA***
+
+<h2>Epicurious Cards</h2>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="epicard">
+
+            <img src="http://unsplash.it/200/120/?random" alt="" class="epicard-image">
+
+            <div class="epicard-info">
+              <span class="epicard-category">ARTICLE</span>
+              <h3>Meet the Chocolate Cake You're Supposed to Eat Daily</h3>
+              <p>It's Zingerman's Hot Cocoa Cake!</p>
+            </div>       
+          </div>
+        </div>
+
+
+         <div class="col-xs-12 col-sm-4">
+          <div class="epicard">
+
+            <img src="http://unsplash.it/200/120/?random" alt="" class="epicard-image">
+
+            <div class="epicard-info">
+              <span class="epicard-category">GALLERY</span>
+              <h3>40 of Our Very Best Chocolate Cake Recipes</h3>
+              <p>You're about to get really popular.</p>
+              	</div>
+             </div>
+          </div>
+        
+      
+    
+
+
+         <div class="col-xs-12 col-sm-4">
+          <div class="epicard">
+
+            <img src="http://unsplash.it/200/120/?random" alt="" class="epicard-image">
+
+            <div class="epicard-info">
+
+              <span class="epicard-category">VIDEO</span>
+
+              <h3>Double Chocolate Cake with Peppermint Chocolate Frosting</h3>
+
+              <p>How do you make cake with eggs or butter? This pretty layer cake uses a...</p>
+          </div>
+      </div>
+  </div>
+
+            
+
+<div class="col-xs-12 col-sm-4">  my grid from bootstrap 
+          <div class="epicard">
+
+     OPTIONAL 
+  <div class="epicard-image-wrapper">
+
+  <img src="http://unsplash.it/200/120/?random" alt="" class="epicard-image">  css position is absolute 
+
+  <div class="epicard-info">
+
+              <span class="epicard-category">VIDEO</span>
+
+              <h6>Double Chocolate Cake with Peppermint Chocolate Frosting</h6>
+
+              <p class="forum">How do you make cake with eggs or butter? This pretty layer cake uses a...</p> 
+
+    OPTIONAL <div class="epicard-image-overlay">  OPTIONAL 
+
+    
+
+ OPTIONAL </div> OPTIONAL 
+	</div>
+	 OPTIONAL </div> OPTIONAL 
+			</div>
+				</div>
+					</div>
+
+-->

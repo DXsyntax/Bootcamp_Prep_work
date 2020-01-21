@@ -1,0 +1,108 @@
+/* play around with the properties */ 
+
+
+.card1 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1025/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+
+.card2 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1048/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+
+ .card3 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1028/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+
+.card4 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1026/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+
+ .card5 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1033/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+
+.card6 {
+	position: relative;
+	height: 250px;
+	background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%),url("https://picsum.photos/id/1033/400/300");
+	background-size: cover;
+	color: white;
+	margin-bottom: 20px;
+  	
+  	 
+
+ }
+ 
+.card-user {
+position: absolute;
+top: 10px;
+right: 10px;
+ }
+
+.card-category { 
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-weight: 900;
+	font-size: 40px;
+ }
+
+.card-description { 
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	font-weight:bolder ;
+
+
+
+ }
+
+ span { 
+ 	font-size: 25px;
+
+  }
+
+
+
+
+

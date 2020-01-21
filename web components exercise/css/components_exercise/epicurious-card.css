@@ -1,0 +1,63 @@
+.Ecard{
+
+	font-family: 'Shrikhand', cursive;
+
+}
+
+.card-text{
+	font-size:19.75px;
+
+
+}
+
+#cheesy-quote {
+	font-size: 11px; 
+	color:#b5bdc8;
+
+
+}
+
+.card-body{ 
+background-color:red;
+ }
+
+h5{
+	font-family: 'Mogra', cursive;
+	font-size: 50px;
+}
+
+a { color: inherit;
+ }
+
+ a:hover 
+{
+     color:#98ff98;  
+     cursor:pointer;  
+}
+
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:10px;
+    background:red;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color:white;
+    padding:5px 10px;
+    font-size:20px;
+}
+
+.btn-fb-like-E{ 
+	font-size:20px;
+
+ }
+
+ .btn-fb-like-E:hover { 
+ 	color: white;
+  }
+
+  .btn-fb-like-E {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+

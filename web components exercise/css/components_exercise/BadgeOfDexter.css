@@ -1,0 +1,30 @@
+#text { 
+
+font-size: 40px;
+
+ }
+
+ .badge {
+  line-height: 20px !important;
+  width: 20px !important;
+  padding: 0 !important;
+  background: #D73B3A !important;
+  position: relative !important;
+  top: -15px !important;
+  left: -15px !important;
+  border-radius: 80% !important;
+  
+}
+
+.Badge-Dexter {
+
+border-radius: 50%;
+width: 50px;
+
+ 
+}
+
+h3{
+font-family: 'Saira Stencil One', cursive;
+
+}

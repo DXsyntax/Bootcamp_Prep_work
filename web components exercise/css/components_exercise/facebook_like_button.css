@@ -1,0 +1,15 @@
+.btn-facebook-like {
+font-size: 90px; /* use font size to change the sizing of the thumbs up button because the icons work the same as fonts */
+color: red;
+}
+
+h1{ 
+
+font-size: 100px;
+font-family: 'Mansalva', cursive;
+
+ }
+
+.news-image { 
+	border-radius: 10px;
+ 

@@ -1,0 +1,44 @@
+/* banner component */ 
+
+.Banner-D { 
+	height: 70vh;
+	width: 99vw;
+	background: url("https://c8.alamy.com/comp/KEE4WF/cyber-hud-used-as-electronic-and-futuristic-touch-interface-laser-KEE4WF.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	text-shadow: 1px 1px 5px black;
+ } 
+
+ .Arsenal { 
+ 	font-size: 100px;
+ 	font-weight: 900;
+ 	background-color: black;
+ 	border-radius: 15px;
+ 	color: lightblue;
+  }
+	
+.creators-message { 
+	font-size: 17px;
+	color: lightblue;
+	background-color: darkgreen;
+	border-radius: 20px;
+}
+
+.initiate { 
+	font-size: 40px;
+	color: lightblue;
+	text-shadow: 1px 1px 5px black;
+	font-family: 'Girassol', cursive
+
+ }
+
+	/* up the size of the button X
+	add the overlay over effect. 
+	find the icon glow tab 
+	change border color to lightblue
+	add social buttons below? 
+/* cybernetic banner design mark ii https://c8.alamy.com/comp/KEE4TE/cyber-hud-used-as-electronic-and-futuristic-touch-interface-laser-KEE4TE.jpg */
